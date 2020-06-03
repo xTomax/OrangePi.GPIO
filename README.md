@@ -14,7 +14,7 @@ It is based on the original [RPi.GPIO](https://pypi.python.org/pypi/RPi.GPIO).
 
     sudo apt-get update
     sudo apt-get install python-dev git
-    git clone https://github.com/Jeremie-C/OrangePi.GPIO
+    git clone https://github.com/xTomax/OrangePi.GPIO.git
     cd /OrangePi.GPIO
     sudo python setup.py install
 
