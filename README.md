@@ -38,6 +38,7 @@ Same as RPi.GPIO but with a new function to choose OrangePi Board.
     import OPi.GPIO as GPIO
     GPIO.setboard(GPIO.ZEROPLUS)
     GPIO.setmode(GPIO.BOARD)
+    GPIO.setup(5, GPIO.OUT)
     GPIO.output(5, 1)
 
 Many demo is on the example folder
